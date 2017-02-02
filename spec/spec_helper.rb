@@ -10,6 +10,8 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new(
   ]
 )
 
+SimpleCov.start
+
 require 'devise_password_blacklist'
 
 RSpec.configure do |config|
